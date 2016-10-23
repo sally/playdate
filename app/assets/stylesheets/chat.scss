@@ -73,9 +73,18 @@
   color: #95CCC7;
 }
 
+div.message.message-default {
+  border: none;
+}
+
 #firechat-tabs #firechat-tab-list li a {
   color: #95CCC7;
 }
 .clearfix label {
   color: #808080;
+}
+
+.tab-pane-menu {
+  border-left: none;
+  border-right: none;
 }
