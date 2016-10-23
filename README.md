@@ -1,24 +1,21 @@
-# README
+# [Color Scheme](http://www.colourlovers.com/palette/1889592/r_e_l_a_x)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## for the ratio rank for the moms
 
-Things you may want to cover:
+pink `#FCB7A7`
 
-* Ruby version
+natural yellow `#F8DDAE`
 
-* System dependencies
+pastel green `#C6D0AE`
 
-* Configuration
+## background
 
-* Database creation
+off white `#FDFDFD`
 
-* Database initialization
+## misc
 
-* How to run the test suite
+seafoam green-blue ish color `#95CCC7`
 
-* Services (job queues, cache servers, search engines, etc.)
+## other color schemes that sally likes
 
-* Deployment instructions
-
-* ...
+[the key](http://www.colourlovers.com/palette/87946/Very)
