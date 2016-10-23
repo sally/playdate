@@ -11,7 +11,7 @@ $(document).ready(function() {
 
 // configure and initialize firebase
 var config = {
-  apiKey: "",
+  apiKey: "AIzaSyDw6D_RWJbfJsWuxCyf_8tbvt4fUAZhZhI",
   authDomain: "dayshare-9e38a.firebaseapp.com",
   databaseURL: "https://dayshare-9e38a.firebaseio.com"
 };
