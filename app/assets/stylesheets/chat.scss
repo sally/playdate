@@ -9,18 +9,6 @@
   cursor: pointer;
 }
 
-#chat-btn:focus {
-  outline: 0;
-}
-
-.seafoam {
-  color: #95CCC7;
-}
-
-.fa-comments:before {
-  padding-right: 10px;
-}
-
 .popup{
   width:380px;
   height:580px;
@@ -47,6 +35,18 @@
   -webkit-box-shadow: 0 5px 25px #666;
   -moz-box-shadow: 0 5px 25px #666;
   box-shadow: 0 5px 25px #666;
+}
+
+#chat-btn:focus {
+  outline: 0;
+}
+
+.seafoam {
+  color: #95CCC7;
+}
+
+.fa-comments:before {
+  padding-right: 10px;
 }
 
 #firechat-btn-rooms {
