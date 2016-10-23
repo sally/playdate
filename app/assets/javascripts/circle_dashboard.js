@@ -2,7 +2,7 @@ $(document).ready(function(){
   greenButtonListener();
   yellowButtonListener();
   pinkButtonListener();
-
+  profilePictureListener();
 })
 
 function greenButtonListener(){
@@ -27,4 +27,12 @@ function pinkButtonListener(){
     $('.modal').modal('hide');
     $('#myModal3').modal('show');
     })
+}
+
+function profilePictureListener(){
+  $('#prof1').on('click', function(event){
+    event.preventDefault();
+    $('.modal').modal('hide');
+    $('#profileModal').modal('show');
+  })
 }
