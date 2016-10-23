@@ -7,7 +7,6 @@
   color: #95CCC7;
   border-radius: calc(0.9rem - 1px);
   cursor: pointer;
-  // border-top-left-radius: calc(0.25rem - 1px);
 }
 
 #chat-btn:focus {
@@ -18,26 +17,26 @@
   color: #95CCC7;
 }
 
-.fa-comment:before {
+.fa-comments:before {
   padding-right: 10px;
 }
 
 .popup{
   width:380px;
-  height:180px;
-  background:#67C58F;
+  height:580px;
+  background-color: transparent;
   bottom: 20px;
   right: -380px;
   position:fixed;
   border-radius:5px;
-  box-shadow: 0px 25px 10px -15px rgba(0, 0, 0, 0.05);
   transition: 0.5s;
 }
 
 #firechat-wrapper {
-  height: 475px;
+  height: 410px;
   max-width: 325px;
   padding: 10px;
+  padding-top: 20px;
   border: 1px solid #ccc;
   background-color: #fff;
   margin: 50px auto;
@@ -50,6 +49,14 @@
   box-shadow: 0 5px 25px #666;
 }
 
+#firechat-btn-rooms {
+  display: none;
+}
+
 #firechat #firechat-tabs {
   height: 423px;
+}
+
+#firechat {
+  margin-top: -4em;
 }

@@ -4,6 +4,9 @@ $(document).ready(function() {
     if ($("#firechat-wrapper").hasClass("closed")) {
       $("#firechat-wrapper").removeClass("closed");
       $(".popup").css( "right", "20px" );
+      $("#firechat-btn-rooms").css('display', 'none');
+      $(".firechat-dropdown-toggle").css('display', 'none');
+      $(".clearfix label").css('display', 'none');
     } else {
       $("#firechat-wrapper").addClass("closed");
       $(".popup").css( "right", "-380px" );
