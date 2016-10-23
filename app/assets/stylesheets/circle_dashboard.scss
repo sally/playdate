@@ -1,0 +1,40 @@
+td {
+  height: 120px;
+  border-right: solid 1px #000;
+  border-left: solid 1px #000;
+  border-bottom: solid 1px #000;
+  border-top: solid 1px #000;
+}
+
+thead > tr > th {
+  border-bottom: solid 1px #000;
+}
+
+tr {
+  width: 120px;
+}
+
+// tr > td {
+//   width: 120px;
+// }
+
+.green {
+  background-color: #C6D0AE;
+}
+
+.pink {
+  background-color: #FCB7A7;
+}
+
+.yellow {
+  background-color: #F8DDAE;
+}
+
+.label {
+  text-align: center;
+}
+
+.modal {
+  margin: 0 auto;
+  padding-top: 15%;
+}
