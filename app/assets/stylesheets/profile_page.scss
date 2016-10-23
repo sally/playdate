@@ -105,6 +105,7 @@ div.user-menu-btns {
     margin: 0;
 }
 
+
 div.user-menu-btns div.btn-group-vertical>a.active:after{
   content: '';
   position: absolute;
@@ -116,6 +117,20 @@ div.user-menu-btns div.btn-group-vertical>a.active:after{
   border-top: 13px solid transparent;
   border-right: 10px solid pink;
 }
+
+div.user-menu-btns div.btn-group-vertical>a.active.changed:after { 
+  content: '';
+  position: absolute;
+  left: 96%;
+  top: 50%;
+  margin-top: -13px;
+  border-right: 0;
+  border-bottom: 13px solid transparent;
+  border-top: 13px solid transparent;
+  border-right: 10px solid transparent;
+
+}
+
 /* -- The main tab & content styling of the vertical buttons info-- */
 div.user-menu-content {
     color: #323232;
