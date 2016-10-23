@@ -115,7 +115,7 @@ div.user-menu-btns div.btn-group-vertical>a.active:after{
   border-right: 0;
   border-bottom: 13px solid transparent;
   border-top: 13px solid transparent;
-  border-right: 10px solid pink;
+  border-right: 10px solid #eee;
 }
 
 div.user-menu-btns div.btn-group-vertical>a.active.changed:after {
@@ -251,15 +251,12 @@ div.user-menu div.user-menu-content:not(.active){
     border-radius: 0px!important;
 }
 
-/* -- media query for user profile image -- */
-/*@media (max-width: 767px) {
-    .user-image {
-        max-height: 400px;
-    }
-}*/
+.kid-info-h3 {
+  text-align: center;
+}
 
 .user-pad{
-  background-color: pink;
+  background-color: #eee;
 }
 
 .top-btn{
