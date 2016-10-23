@@ -15,11 +15,57 @@
 		<!-- firechat cdn -->
 	  <script src="https://cdn.firebase.com/libs/firechat/3.0.1/firechat.min.js"></script>
 
+    <link href="https://fonts.googleapis.com/css?family=Chelsea+Market" rel="stylesheet">
+    <link href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css" rel="stylesheet" media="screen">
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
+
+  <style>
+  nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #95CCC7;
+    margin: 0;
+  }
+  .second-third{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 1.75em;
+    color: #fff;
+    text-align: center;
+  }
+  .nav-white{
+    color: #fff;
+    font-size: 1.5em;
+  }
+
+  .nav-corner{
+        padding-top: .25em;
+    padding-right: .5em;
+
+  }
+  .nav-bell{
+    padding-right: .5em;
+  }
+  </style>
+
+  <header>
+  <nav>
+  <div class="first-third">
+  </div>
+
+  <div class="second-third">
+  playdate
+  </div> 
+
+  <div class="third-third">
+<!--     <i class="fa fa-bell-o nav-white nav-bell"></i>
+    <i class="fa fa-bars nav-white nav-corner"></i> -->
+  </div> 
+  </nav>
+  </header>
 
   <body>
     <%= yield %>
