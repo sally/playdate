@@ -133,6 +133,7 @@ div.user-menu-btns div.btn-group-vertical>a.active.changed:after {
 /* -- The main tab & content styling of the vertical buttons info-- */
 div.user-menu-content {
     color: #323232;
+    padding: 1em;
 }
 
 ul.user-menu-list {
@@ -289,4 +290,13 @@ div.user-menu div.user-menu-content:not(.active){
 
 .hidden{
   display: none;
+}
+
+.activity{
+  background-color: #FA396f;
+  border-radius: 5px;
+  padding: 4px;
+  font-size: 0.7em;
+  color: white;
+
 }

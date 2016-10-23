@@ -13,12 +13,15 @@ $(document).ready(function() {
         $("div.user-menu>div.user-menu-content").eq(index).addClass("active");
     });
 
-    $btnLinks.mouseleave(function(e){
+    var menuContainer = $('.menu-container');
+
+    menuContainer.mouseleave(function(e){
         $('div.btn-group-vertical>a.active').addClass('changed');
         $(".user-menu-content").removeClass('active');
         $(".map-container").removeClass('hidden');
     });
 });
+
 
 $( document ).ready(function() {
     $("[rel='tooltip']").tooltip();
