@@ -6,4 +6,8 @@ class MainController < ApplicationController
   def circle_dashboard
 
   end
+
+  def chat
+  	
+  end
 end
