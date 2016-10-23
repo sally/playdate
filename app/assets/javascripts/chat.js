@@ -1,12 +1,18 @@
 $(document).ready(function() {
-  $("#addClass").click(function () {
-    login();
-    $('#qnimate').addClass('popup-box-on');
-  });
-
-  $("#removeClass").click(function () {
-    $('#qnimate').removeClass('popup-box-on');
-  });
+  $("#chat-btn").on ("click", function(e) {
+    e.preventDefault();
+    if ($("#firechat-wrapper").hasClass("closed")) {
+      $("#firechat-wrapper").removeClass("closed");
+      $(".popup").css( "right", "20px" );
+      $("#firechat-btn-rooms").css('display', 'none');
+      $(".firechat-dropdown-toggle").css('display', 'none');
+      $(".clearfix label").css('display', 'none');
+      $(".chat").css('border-left', '0').css('border-right', '0');
+    } else {
+      $("#firechat-wrapper").addClass("closed");
+      $(".popup").css( "right", "-380px" );
+    }
+  })
 });
 
 // configure and initialize firebase
