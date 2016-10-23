@@ -28,6 +28,21 @@
     <script>
       function initMap() {
         var galvanize = {lat: 37.787613, lng: -122.3988267};
+        var places = {
+          place1: {
+            center: {lat: 37.790651, lng: -122.404714},
+            population: 4
+          },
+          place2:{
+            center: {lat: 37.7840654, lng: -122.3986992},
+            population: 5
+          },
+          place3: {
+            center: {lat: 37.789248, lng: -122.3978077},
+            population: 6
+          }
+        };
+
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 14,
           disableDefaultUI: true,
@@ -37,6 +52,19 @@
           position: galvanize,
           map: map
         });
+
+        for (var circle in places) {
+          var activeCircle = new google.maps.Circle({
+            strokeColor: '#95CCC7',
+            strokeOpacity: 0.8,
+            strokeWeight: 3,
+            fillColor: '#95CCC7',
+            fillOpacity: 0.55,
+            map: map,
+            center: places[circle].center,
+            radius: Math.sqrt(places[circle].population) * 100
+          });
+        }
       }
     </script>
     <script async defer
