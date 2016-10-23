@@ -300,21 +300,39 @@ div.user-menu div.user-menu-content:not(.active){
   color: white;
 }
 
-.dietary{
-  background-color: #cd5c5c;
+.allergy{
+  background-color: #EEAA88;
   border-radius: 5px;
   padding: 4px;
   font-size: 0.7em;
   color: white;
 }
 
-.diet-icon{
-  width: 20px;
-  height: 20px;
-
+.healthissues{
+  background-color: #CCC68D;
+  border-radius: 5px;
+  padding: 4px;
+  font-size: 0.7em;
+  color: white;
 }
 
+.medication{
+  background-color: #EEC290;
+  border-radius: 5px;
+  padding: 4px;
+  font-size: 0.7em;
+  color: white;
+}
 
 .user-menu-list h4{
   font-size: 1.2em;
+}
+
+.user-menu-content{
+  max-height: 370px;
+}
+
+ul.user-menu-list {
+  margin-top: .75em;
+  padding-top: 0px;
 }
