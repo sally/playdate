@@ -7,7 +7,29 @@ td {
 }
 
 thead > tr > th {
+  // border-bottom: solid 1px #000;
+}
+
+.table thead th{
+  border-bottom: 0px solid #000;
+}
+
+.table td {
+  width: 270px;
+  border-top: solid 1px #000;
+}
+
+thead {
   border-bottom: solid 1px #000;
+}
+
+tbody {
+  border-top: solid 1px #000;
+  cursor: pointer;
+}
+
+table {
+  border-top: solid 1px #000;
 }
 
 tr {
@@ -17,6 +39,10 @@ tr {
 // tr > td {
 //   width: 120px;
 // }
+
+.emphasize {
+  opacity: .5;
+}
 
 .green {
   background-color: #C6D0AE;
@@ -37,4 +63,13 @@ tr {
 .modal {
   margin: 0 auto;
   padding-top: 15%;
+}
+
+// -----------------
+
+.info-card-img{
+  width: 260px;
+  height: 200px;
+  // background: blue;
+  // text-shadow: 2px 2px;
 }

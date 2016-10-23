@@ -17,22 +17,22 @@
             <th>Friday</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody id="hover-this">
           <tr>
             <th scope="row">AM</th>
-            <td class="green" id="example1"></td>
-            <td class="yellow" id="example2"></td>
-            <td class="green"></td>
-            <td class="pink"></td>
-            <td class="yellow"></td>
+            <td class="green emphasize" id="example1"></td>
+            <td class="yellow emphasize" id="example2"></td>
+            <td class="green emphasize"></td>
+            <td class="pink emphasize"></td>
+            <td class="yellow emphasize"></td>
           </tr>
           <tr>
-            <th scope="row">PM</th>
-            <td class="green"></td>
-            <td class="yellow"></td>
-            <td class="pink" id="example3"></td>
-            <td class="pink"></td>
-            <td class="yellow"></td>
+            <th scope="row emphasize">PM</th>
+            <td class="green emphasize"></td>
+            <td class="yellow emphasize"></td>
+            <td class="pink emphasize" id="example3"></td>
+            <td class="pink emphasize"></td>
+            <td class="yellow emphasize"></td>
           </tr>
         </tbody>
       </table>
@@ -45,10 +45,14 @@
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel">Monday</h4>
+          <h4 class="modal-title" id="myModalLabel">Monday 10/24</h4>
         </div>
         <div class="modal-body">
-          MONDAY TEXT STUFF
+          <p>Care-Taker: Care1</p>
+          <p>Kids: Kid1, Kid2, Kid3</p>
+          <p>10AM @ park</p>
+          <p>12PM lunch</p>
+          <p>2PM arts and craft</p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -92,41 +96,62 @@
   </div>
   <br><br>
   <!-- END OF GRID MODALS -->
+</div>
 
-  <div class="row">
-   <div class="col-md-3">
-     <div class="row">
+<!-- Members -->
+<div class="container">
+  <div class='row'>
+    <div class="card-deck-wrapper">
+      <div class="card-deck">
+        <div id="prof1" class="card text-xs-center">
+          <img class="card-img-top info-card-img" src="https://www.cs.cornell.edu/Courses/cs3110/2015sp/resources/images/staff/anonymous.png" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Special title treatment</h4>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+          <div class="card-footer text-muted">
+            2 days ago
+          </div>
+        </div>
 
-     <img id="prof1" class="img-responsive label" src="https://www.cs.cornell.edu/Courses/cs3110/2015sp/resources/images/staff/anonymous.png" /></div>
-     <div class="row label">
-       <p>Name1</p>
-     </div>
-   </div>
+        <div class="card text-xs-center">
+          <img class="card-img-top info-card-img" src="https://www.cs.cornell.edu/Courses/cs3110/2015sp/resources/images/staff/anonymous.png" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Special title treatment</h4>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+          <div class="card-footer text-muted">
+            2 days ago
+          </div>
+        </div>
 
-  <div class="col-md-3">
-    <div class="row">
-     <img class="img-responsive" src="https://www.cs.cornell.edu/Courses/cs3110/2015sp/resources/images/staff/anonymous.png" /></div>
-     <div class="row label">
-     <p>Name2</p>
-   </div>
-   </div>
+        <div class="card text-xs-center">
+          <img class="card-img-top info-card-img" src="https://www.cs.cornell.edu/Courses/cs3110/2015sp/resources/images/staff/anonymous.png" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Special title treatment</h4>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+          <div class="card-footer text-muted">
+            2 days ago
+          </div>
+        </div>
 
-   <div class="col-md-3">
-     <div class="row">
-     <img class="img-responsive" src="https://www.cs.cornell.edu/Courses/cs3110/2015sp/resources/images/staff/anonymous.png" /></div>
-     <div class="row label">
-     <p>Name3</p>
-   </div>
-   </div>
-
-   <div class="col-md-3">
-     <div class="row">
-
-     <img class="img-responsive" src="https://www.cs.cornell.edu/Courses/cs3110/2015sp/resources/images/staff/anonymous.png" /></div>
-     <div class="row label">
-     <p>Name4</p>
-   </div>
-   </div>
+        <div class="card text-xs-center">
+          <img class="card-img-top info-card-img" src="https://www.cs.cornell.edu/Courses/cs3110/2015sp/resources/images/staff/anonymous.png" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Special title treatment</h4>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+          <div class="card-footer text-muted">
+            2 days ago
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <div class="modal fade" id="profileModal" tabindex="-1" role="dialog" aria-labelledby="profileModalLabel">
@@ -145,5 +170,4 @@
       </div>
     </div>
   </div>
-
 </div>
