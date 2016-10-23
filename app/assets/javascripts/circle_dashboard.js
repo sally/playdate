@@ -4,6 +4,7 @@ $(document).ready(function(){
   pinkButtonListener();
   profilePictureListener();
   hoverOverGridListener();
+  fourthButtonListener();
 })
 
 function greenButtonListener(){
@@ -45,4 +46,12 @@ function hoverOverGridListener(){
       wow.toggleClass('emphasize');
 
     })
+}
+
+function fourthButtonListener(){
+  $('#example4').on('click', function(event){
+    event.preventDefault();
+    $('.modal').modal('hide');
+    $('#myModal4').modal('show');
+  })
 }
