@@ -145,7 +145,7 @@ ul.user-menu-list {
 }
 ul.user-menu-list>li {
     padding-bottom: 8px;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 div.user-menu div.user-menu-content:not(.active){
@@ -276,7 +276,8 @@ div.user-menu div.user-menu-content:not(.active){
   margin-right: 0;
 }
 
-.user-bio{
+.user-entry{
+  display: block;
 }
 
 .map-container{
@@ -325,14 +326,49 @@ div.user-menu div.user-menu-content:not(.active){
 }
 
 .user-menu-list h4{
-  font-size: 1.2em;
+  font-size: 1.25em;
 }
 
 .user-menu-content{
   max-height: 370px;
 }
 
+
 ul.user-menu-list {
   margin-top: .75em;
   padding-top: 0px;
+  padding-left: 2em;
+}
+
+div.user-entry-heading{
+
+  float: left;
+  width: 7em;
+  padding-right: 1em;
+  text-align: left;
+}
+
+.user-about-me{
+  padding-left: 2em;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.submit{
+  width: 100%;
+  margin: 0 auto;
+  z-index: 10;
+  background-color: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: right;
+/*  background-clip: padding-box;
+  opacity: 0.97;
+  filter: alpha(opacity=97);
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);*/
+}
+
+.icon{
+  padding-right: 25px;
 }
