@@ -4,7 +4,7 @@ $(document).ready(function() {
     // login();
     if ($("#firechat-wrapper").hasClass("closed")) {
       $("#firechat-wrapper").removeClass("closed");
-      $(".popup").css( "right", "20px" );
+      $(".popup").css( "right", "10px" );
       $("#firechat-btn-rooms").css('display', 'none');
       $(".firechat-dropdown-toggle").css('display', 'none');
       $(".clearfix label").css('display', 'none');
