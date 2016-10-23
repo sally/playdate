@@ -1,0 +1,63 @@
+.container{
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+
+.user-info-container{
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 2em;
+/*  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);*/
+/*
+  display: flex;
+  justify-content: space-between;*/
+}
+
+.user-info {
+  height: 500px;
+}
+
+.user-picture-container{
+  background-color: red;
+}
+
+.user-kids-container{
+  background-color: yellow;
+
+}
+
+.user-kids-info-container{
+  background-color:green;
+
+}
+
+.user-kids-info-container:after, .user-kids-info-container:before {
+  right: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.user-kids-info-container:after {
+  border-color: rgba(136, 183, 213, 0);
+  border-right-color: #88b7d5;
+  border-width: 30px;
+  margin-top: -30px;
+}
+.user-kids-info-container:before {
+  border-color: rgba(194, 225, 245, 0);
+  border-right-color: #c2e1f5;
+  border-width: 36px;
+  margin-top: -36px;
+}
+
