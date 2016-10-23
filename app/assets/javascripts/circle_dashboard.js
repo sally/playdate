@@ -5,6 +5,7 @@ $(document).ready(function(){
   profilePictureListener();
   hoverOverGridListener();
   fourthButtonListener();
+  fifthButtonListener();
 })
 
 function greenButtonListener(){
@@ -53,5 +54,13 @@ function fourthButtonListener(){
     event.preventDefault();
     $('.modal').modal('hide');
     $('#myModal4').modal('show');
+  })
+}
+
+function fifthButtonListener(){
+  $('#example5').on('click', function(event){
+    event.preventDefault();
+    $('.modal').modal('hide');
+    $('#myModal5').modal('show');
   })
 }
