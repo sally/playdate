@@ -55,15 +55,27 @@ tr {
 // }
 
 .emphasize {
-  opacity: .5;
+  opacity: .75;
 }
 
 .green {
   background-color: #C6D0AE;
 }
 
+.green-gradient{
+  height: 200px;
+    background-image: linear-gradient(-45deg, #C6D0AE 25%, transparent 25%, transparent 50%, #C6D0AE 50%, #C6D0AE 75%, transparent 75%, transparent);
+    background-size: 10px 10px;
+}
+
 .pink {
   background-color: #FCB7A7;
+}
+
+.pink-gradient{
+  height: 200px;
+  background-image: linear-gradient(-45deg, #FCB7A7 25%, transparent 25%, transparent 50%, #FCB7A7 40%, #FCB7A7 75%, transparent 15%, transparent);
+  background-size: 10px 10px;
 }
 
 .yellow {

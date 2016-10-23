@@ -1,6 +1,7 @@
 $(document).ready(function() {
   $("#chat-btn").on ("click", function(e) {
     e.preventDefault();
+    login();
     if ($("#firechat-wrapper").hasClass("closed")) {
       $("#firechat-wrapper").removeClass("closed");
       $(".popup").css( "right", "20px" );
@@ -17,7 +18,7 @@ $(document).ready(function() {
 
 // configure and initialize firebase
 var config = {
-  apiKey: "",
+  apiKey: "AIzaSyDw6D_RWJbfJsWuxCyf_8tbvt4fUAZhZhI",
   authDomain: "dayshare-9e38a.firebaseapp.com",
   databaseURL: "https://dayshare-9e38a.firebaseio.com"
 };
