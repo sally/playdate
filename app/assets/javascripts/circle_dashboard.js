@@ -6,6 +6,7 @@ $(document).ready(function(){
   hoverOverGridListener();
   fourthButtonListener();
   fifthButtonListener();
+  sixthButtonListener();
 })
 
 function greenButtonListener(){
@@ -45,7 +46,6 @@ function hoverOverGridListener(){
       event.preventDefault();
       var wow = $(this);
       wow.toggleClass('emphasize');
-
     })
 }
 
@@ -62,5 +62,13 @@ function fifthButtonListener(){
     event.preventDefault();
     $('.modal').modal('hide');
     $('#myModal5').modal('show');
+  })
+}
+
+function sixthButtonListener(){
+  $('#example6').on('click', function(event){
+    event.preventDefault();
+    $('.modal').modal('hide');
+    $('#myModal6').modal('show');
   })
 }
