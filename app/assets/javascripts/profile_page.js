@@ -1,7 +1,7 @@
 $(document).ready(function() {
     var $btnSets = $('#responsive'),
     $btnLinks = $btnSets.find('a');
- 
+
     $btnLinks.hover(function(e) {
         e.preventDefault();
         $(this).siblings('a.active').removeClass("active");
@@ -18,13 +18,11 @@ $(document).ready(function() {
         $(".user-menu-content").removeClass('active');
         $(".map-container").removeClass('hidden');
     });
-
-
 });
 
 $( document ).ready(function() {
-    $("[rel='tooltip']").tooltip();    
- 
+    $("[rel='tooltip']").tooltip();
+
     $('.view').hover(
         function(){
             $(this).find('.caption').slideDown(250); //.fadeIn(250)
@@ -32,5 +30,5 @@ $( document ).ready(function() {
         function(){
             $(this).find('.caption').slideUp(250); //.fadeOut(205)
         }
-    ); 
+    );
 });

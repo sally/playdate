@@ -115,10 +115,10 @@ div.user-menu-btns div.btn-group-vertical>a.active:after{
   border-right: 0;
   border-bottom: 13px solid transparent;
   border-top: 13px solid transparent;
-  border-right: 10px solid pink;
+  border-right: 10px solid #eee;
 }
 
-div.user-menu-btns div.btn-group-vertical>a.active.changed:after { 
+div.user-menu-btns div.btn-group-vertical>a.active.changed:after {
   content: '';
   position: absolute;
   left: 96%;
@@ -128,13 +128,11 @@ div.user-menu-btns div.btn-group-vertical>a.active.changed:after {
   border-bottom: 13px solid transparent;
   border-top: 13px solid transparent;
   border-right: 10px solid transparent;
-
 }
 
 /* -- The main tab & content styling of the vertical buttons info-- */
 div.user-menu-content {
     color: #323232;
-    
 }
 
 ul.user-menu-list {
@@ -204,7 +202,7 @@ div.user-menu div.user-menu-content:not(.active){
     margin-top: 20px;
     margin-bottom: 0;
 }
- 
+
 .caption {
     position:absolute;
     top:0;
@@ -253,15 +251,12 @@ div.user-menu div.user-menu-content:not(.active){
     border-radius: 0px!important;
 }
 
-/* -- media query for user profile image -- */
-/*@media (max-width: 767px) {
-    .user-image {
-        max-height: 400px;
-    }
-}*/
+.kid-info-h3 {
+  text-align: center;
+}
 
 .user-pad{
-  background-color: pink;
+  background-color: #eee;
 }
 
 .top-btn{
