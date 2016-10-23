@@ -3,6 +3,7 @@ $(document).ready(function(){
   yellowButtonListener();
   pinkButtonListener();
   profilePictureListener();
+  hoverOverGridListener();
 })
 
 function greenButtonListener(){
@@ -35,4 +36,13 @@ function profilePictureListener(){
     $('.modal').modal('hide');
     $('#profileModal').modal('show');
   })
+}
+
+function hoverOverGridListener(){
+    $('#hover-this > tr > td').hover(function(event){
+      event.preventDefault();
+      var wow = $(this);
+      wow.toggleClass('emphasize');
+
+    })
 }

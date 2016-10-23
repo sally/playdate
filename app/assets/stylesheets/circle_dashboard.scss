@@ -7,7 +7,11 @@ td {
 }
 
 thead > tr > th {
-  border-bottom: solid 1px #000;
+  // border-bottom: solid 1px #000;
+}
+
+.table thead th{
+  border-bottom: 0px solid #000;
 }
 
 .table td {
@@ -21,6 +25,7 @@ thead {
 
 tbody {
   border-top: solid 1px #000;
+  cursor: pointer;
 }
 
 table {
@@ -34,6 +39,10 @@ tr {
 // tr > td {
 //   width: 120px;
 // }
+
+.emphasize {
+  opacity: .5;
+}
 
 .green {
   background-color: #C6D0AE;
