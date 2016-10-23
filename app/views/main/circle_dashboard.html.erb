@@ -1,3 +1,5 @@
+<link href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css" rel="stylesheet" media="screen">
+
 <div class="container">
   <br>
   <h1 class="circle-blue">Calendar</h1>
@@ -20,19 +22,19 @@
         <tbody id="hover-this">
           <tr>
             <th class="row v-align">AM</th>
-            <td class="green-gradient2 emphasize" id="example1"></td>
-            <td class="yellow-gradient2 emphasize" id="example2"></td>
-            <td class="green-gradient2 emphasize" id="example4"></td>
-            <td class="pink-gradient2 emphasize" id="example5"></td>
-            <td class="yellow-gradient2 emphasize" id="example6"></td>
+            <td class="green emphasize" id="example1"></td>
+            <td class="yellow emphasize" id="example2"></td>
+            <td class="green emphasize" id="example4"></td>
+            <td class="pink emphasize" id="example5"></td>
+            <td class="yellow emphasize" id="example6"></td>
           </tr>
           <tr>
             <th class="row v-align">PM</th>
-            <td class="green-gradient2 emphasize"></td>
-            <td class="yellow-gradient2 emphasize"></td>
-            <td class="pink-gradient2 emphasize" id="example3"></td>
-            <td class="pink-gradient2 emphasize"></td>
-            <td class="yellow-gradient2 emphasize"></td>
+            <td class="green emphasize"></td>
+            <td class="yellow emphasize"></td>
+            <td class="pink emphasize" id="example3"></td>
+            <td class="pink emphasize"></td>
+            <td class="yellow emphasize"></td>
           </tr>
         </tbody>
       </table>
@@ -173,65 +175,184 @@
     <div class="card-deck-wrapper">
       <div class="card-deck">
         <div id="prof1" class="card text-xs-center">
-          <img class="card-img-top info-card-img" src="https://www.cs.cornell.edu/Courses/cs3110/2015sp/resources/images/staff/anonymous.png" alt="Card image cap">
+          <img class="card-img-top info-card-img" src="20160914_176_KLach_H.jpg" alt="Card image cap">
           <div class="card-block">
             <h4 class="card-title">Cindy</h4>
-            <p class="card-text">Phone: (555) 555-555<br>Address: 123 Oak St</p>
-            <a href="#" class="btn btn-primary">Profile</a>
-          </div>
-          <div class="card-footer text-muted">
-            Last online: 2 hours ago
+            <p><i class="fa fa-users">&nbsp 3 kids</i></p>
           </div>
         </div>
 
         <div class="card text-xs-center">
-          <img class="card-img-top info-card-img" src="https://www.cs.cornell.edu/Courses/cs3110/2015sp/resources/images/staff/anonymous.png" alt="Card image cap">
+          <img class="card-img-top info-card-img" src="20160914_152_KPena_H.jpg" alt="Card image cap">
           <div class="card-block">
             <h4 class="card-title">Julia</h4>
-            <p class="card-text">Phone: (555) 555-555<br>Address: 678 Spruce Ave</p>
-            <a href="#" class="btn btn-primary">Profile</a>
-          </div>
-          <div class="card-footer text-muted">
-            Last online: 8 hours ago
+            <p><i class="fa fa-users">&nbsp 2 kids</i></p>
           </div>
         </div>
 
         <div class="card text-xs-center">
-          <img class="card-img-top info-card-img" src="https://www.cs.cornell.edu/Courses/cs3110/2015sp/resources/images/staff/anonymous.png" alt="Card image cap">
+          <img class="card-img-top info-card-img" src="20160914_203_MTaghvaie_H.jpg" alt="Card image cap"  alt="Card image cap">
           <div class="card-block">
             <h4 class="card-title">Seba</h4>
-            <p class="card-text">Phone: (555) 555-555<br>Address: 633 Folsom St</p>
-            <a href="#" class="btn btn-primary">Profile</a>
-          </div>
-          <div class="card-footer text-muted">
-            Last online: 3 hours ago
+            <p><i class="fa fa-user">&nbsp 1 kid</i></p>
           </div>
         </div>
 
         <div class="card text-xs-center">
-          <img class="card-img-top info-card-img" src="https://www.cs.cornell.edu/Courses/cs3110/2015sp/resources/images/staff/anonymous.png" alt="Card image cap">
+          <img class="card-img-top info-card-img" src="20160914_206_RLogan_H.jpg" alt="Card image cap">
           <div class="card-block">
             <h4 class="card-title">Max</h4>
-            <p class="card-text">Phone: (555) 555-555<br>Address: 633 Folsom St</p>
-            <a href="#" class="btn btn-primary">Profile</a>
-          </div>
-          <div class="card-footer text-muted">
-            Last online: 2 days ago
+            <p><i class="fa fa-users">&nbsp 2 kids</i></p>
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="modal fade" id="profileModal" tabindex="-1" role="dialog" aria-labelledby="profileModalLabel">
-    <div class="modal-dialog" role="document">
+  <div class="modal fade " id="profileModal" tabindex="-1" role="dialog" aria-labelledby="profileModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="profileModalLabel">Name1</h4>
+          <h4 class="modal-title" id="profileModalLabel">Cindy</h4>
         </div>
         <div class="modal-body">
-          NAME1 TEXT STUFF
+          <!-- Phone: (555) 555-555<br>
+          Address: 123 Oak St<br>
+          Kids: John, Robbie, Paula -->
+          <div class="col-md-2 user-menu-btns">
+
+            <div class="btn-group-vertical square" id="responsive">
+              <a href="#" class="btn btn-block btn-default">
+                <img class="child fa fa-3x top-btn" src="https://upload.wikimedia.org/wikipedia/en/f/ff/SuccessKid.jpg">
+              </a>
+              <a href="#" class="btn btn-default">
+                <img class="child fa fa-3x middle-btn" src="https://upload.wikimedia.org/wikipedia/en/f/ff/SuccessKid.jpg">
+              </a>
+              <a href="#" class="btn btn-default">
+                <img class="child fa fa-3x" src="https://upload.wikimedia.org/wikipedia/en/f/ff/SuccessKid.jpg">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-6 user-menu user-pad blehhh">
+            <div class="map-container active">
+              <div id="map"></div>
+            </div>
+
+            <div class="user-menu-content blehh">
+              <h3 class="kid-info-h3">Alice Gatsby</h3>
+              <ul class="user-menu-list">
+                <li>
+                  <h4><i class="icon fa fa-user fa-fw coral"></i> Ali</h4>
+                </li>
+                <li>
+                  <h4><i class="icon fa fa-venus fa-fw coral"></i> Female</h4>
+                </li>
+                <li>
+                  <h4><i class="icon fa fa-birthday-cake fa-fw coral"></i> 11</h4>
+                </li>
+              </ul>
+
+              <ul class="user-menu-list activities">
+                <li><h4><i class="icon fa fa-heart-o fa-fw coral"></i> <span class="activity"><i class="fa fa-laptop white"></i> computers</span>
+                <span class="activity"><i class="fa fa-gamepad white"></i> gaming</span>
+                <span class="activity"><i class="fa fa-paint-brush white"></i> painting</span>
+                <span class="activity"><i class="fa fa-soccer-ball-o white"></i> soccer</span>
+                </h4></li>
+              </ul>
+
+              <ul class="user-menu-list diet">
+                <li><h4><i class="icon fa fa-ban fa-fw coral"></i> <span class="allergy"><i class="fa fa-lemon-o white"></i> nuts</span>
+                </h4></li>
+              </ul>
+
+              <ul class="user-menu-list medkit">
+                <li><h4><i class="icon fa fa-medkit fa-fw coral"></i> <span class="medication"><i class="fa fa-eyedropper white"></i> epipen</span>
+                </h4></li>
+              </ul>
+
+               <!--  <li>
+                  <button type="button" class="btn btn-labeled btn-success" href="#">Rails g</button>
+                </li>
+              </ul> -->
+            </div>
+
+            <div class="user-menu-content blehh">
+              <h3 class="kid-info-h3">Jericho Gatsby</h3>
+              <ul class="user-menu-list">
+                <li>
+                  <h4><i class="icon fa fa-user fa-fw coral"></i> Jerry</h4>
+                </li>
+                <li>
+                  <h4><i class="icon fa fa-mars fa-fw coral"></i> Male</h4>
+                </li>
+                <li>
+                  <h4><i class="icon fa fa-birthday-cake fa-fw coral"></i> 10</h4>
+                </li>
+              </ul>
+
+              <ul class="user-menu-list activities">
+                <li><h4><i class="icon fa fa-heart-o fa-fw coral"></i>
+                <span class="activity"><i class="fa fa-pagelines white"></i> outdoors</span>
+                <span class="activity"><i class="fa fa-video-camera white"></i> movies</span>
+                <span class="activity"><i class="fa fa-book white"></i> reading</span>
+
+                </h4></li>
+              </ul>
+
+              <ul class="user-menu-list diet">
+                <li><h4><i class="icon fa fa-heartbeat fa-fw coral"></i> <span class="healthissues"><i class="fa fa-mixcloud white"></i> asthma</span>
+                </h4></li>
+              </ul>
+
+              <ul class="user-menu-list medkit">
+                <li><h4><i class="icon fa fa-medkit fa-fw coral"></i> <span class="medication"><i class="fa fa-fire-extinguisher fa-rotate-180 white"></i> inhaler</span>
+                </h4></li>
+              </ul>
+
+                <!-- <li>
+                  <button type="button" class="btn btn-labeled btn-success" href="#">Teleport</button>
+                </li>
+              </ul> -->
+            </div>
+            <div class="user-menu-content blehh">
+              <h3 class="kid-info-h3">Keith Gatsby</h3>
+              <ul class="user-menu-list">
+                <li>
+                  <h4><i class="icon fa fa-user fa-fw coral"></i> K.P.</h4>
+                </li>
+                <li>
+                  <h4><i class="icon fa fa-mars fa-fw coral"></i> Male</h4>
+                </li>
+                <li>
+                  <h4><i class="icon fa fa-birthday-cake fa-fw coral"></i> 8</h4>
+                </li>
+              </ul>
+
+              <ul class="user-menu-list activities">
+                <li><h4><i class="icon fa fa-heart-o fa-fw coral"></i> <span class="activity"><i class="fa fa-bicycle white"></i> cycling</span>
+                <span class="activity"><i class="fa fa-gamepad white"></i> gaming</span>
+                <span class="activity"><i class="fa fa-television white"></i> television</span>
+                <span class="activity"><i class="fa fa-pencil-square-o white"></i> writing</span>
+                </h4></li>
+              </ul>
+
+              <ul class="user-menu-list diet">
+                <li><h4><i class="icon fa fa-ban fa-fw coral"></i> Allergies: <span class="allergy"><i class="fa fa-paw white"></i> dogs</span>
+                </h4></li>
+              </ul>
+
+
+
+                <!-- <li>
+                  <button type="button" class="btn btn-labeled btn-success" href="#">Teleport</button>
+                </li>
+              </ul> -->
+            </div>
+          </div>
+      </div></div>
+    </div>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
