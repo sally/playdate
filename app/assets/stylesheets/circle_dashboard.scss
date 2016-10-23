@@ -1,35 +1,43 @@
+$white: white;
+
 td {
   height: 120px;
-  border-right: solid 1px #000;
-  border-left: solid 1px #000;
-  border-bottom: solid 1px #000;
-  border-top: solid 1px #000;
+  border-right: solid 5px $white;
+  border-left: solid 5px $white;
+  border-bottom: solid 5px $white;
+  border-top: solid 5px $white;
 }
 
-thead > tr > th {
-  // border-bottom: solid 1px #000;
+.v-align{
+  vertical-align: center !important;
 }
 
 .table thead th{
-  border-bottom: 0px solid #000;
+  border-bottom: 0px solid $white;
+  text-align: center;
+}
+
+.table tbody tr th{
+  border-bottom: 0px solid $white;
+  vertical-align: center !important;
 }
 
 .table td {
   width: 270px;
-  border-top: solid 1px #000;
+  border-top: solid 5px $white;
 }
 
 thead {
-  border-bottom: solid 1px #000;
+  border-bottom: solid 5px $white;
 }
 
 tbody {
-  border-top: solid 1px #000;
+  border-top: solid 5px $white;
   cursor: pointer;
 }
 
 table {
-  border-top: solid 1px #000;
+  border-top: solid 5px $white;
 }
 
 tr {
