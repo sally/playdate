@@ -1,6 +1,7 @@
 $(document).ready(function() {
   $("#chat-btn").on ("click", function(e) {
     e.preventDefault();
+    // login();
     if ($("#firechat-wrapper").hasClass("closed")) {
       $("#firechat-wrapper").removeClass("closed");
       $(".popup").css( "right", "20px" );
