@@ -8,6 +8,8 @@ $(document).ready(function() {
       $(".firechat-dropdown-toggle").css('display', 'none');
       $(".clearfix label").css('display', 'none');
       $(".chat").css('border-left', '0').css('border-right', '0');
+      $($('#firechat-tab-list li a')[0]).text("Diane Parker");
+      $($('#firechat-tab-list li a')[1]).text("Full Circle");
     } else {
       $("#firechat-wrapper").addClass("closed");
       $(".popup").css( "right", "-380px" );
@@ -17,7 +19,7 @@ $(document).ready(function() {
 
 // configure and initialize firebase
 var config = {
-  apiKey: "",
+  apiKey: "AIzaSyDw6D_RWJbfJsWuxCyf_8tbvt4fUAZhZhI",
   authDomain: "dayshare-9e38a.firebaseapp.com",
   databaseURL: "https://dayshare-9e38a.firebaseio.com"
 };
