@@ -189,7 +189,7 @@ div.user-menu div.user-menu-content:not(.active){
 
 .overview h4 {
     font-weight: bold!important;
-    font-size: 40px;
+    font-size: 2em;
     margin-top: 0;
 }
 
@@ -292,11 +292,24 @@ div.user-menu div.user-menu-content:not(.active){
   display: none;
 }
 
-.activity{
+.activity, {
   background-color: #FA396f;
   border-radius: 5px;
   padding: 4px;
   font-size: 0.7em;
   color: white;
+}
+
+.dietary{
+  background-color: #cd5c5c;
+  border-radius: 5px;
+  padding: 4px;
+  font-size: 0.7em;
+  color: white;
+}
+
+.diet-icon{
+  width: 20px;
+  height: 20px;
 
 }
