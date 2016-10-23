@@ -7,6 +7,7 @@ $(document).ready(function() {
       $("#firechat-btn-rooms").css('display', 'none');
       $(".firechat-dropdown-toggle").css('display', 'none');
       $(".clearfix label").css('display', 'none');
+      $(".chat").css('border-left', '0').css('border-right', '0');
     } else {
       $("#firechat-wrapper").addClass("closed");
       $(".popup").css( "right", "-380px" );

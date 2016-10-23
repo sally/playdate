@@ -60,3 +60,11 @@
 #firechat {
   margin-top: -4em;
 }
+
+#firechat textarea {
+  border: none;
+}
+
+#firechat textarea:focus {
+  outline: 0;
+}
