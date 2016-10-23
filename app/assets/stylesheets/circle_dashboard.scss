@@ -10,6 +10,23 @@ thead > tr > th {
   border-bottom: solid 1px #000;
 }
 
+.table td {
+  width: 270px;
+  border-top: solid 1px #000;
+}
+
+thead {
+  border-bottom: solid 1px #000;
+}
+
+tbody {
+  border-top: solid 1px #000;
+}
+
+table {
+  border-top: solid 1px #000;
+}
+
 tr {
   width: 120px;
 }
