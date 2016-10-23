@@ -1,7 +1,32 @@
 .dashboard{
-  width: 80% !important;
+  // width: 80% !important;
 }
 
-h1 {
-  color: red;
+// h1 {
+//   color: red;
+// }
+
+td {
+  height: 120px;
+  // width: 120px;
+}
+
+tr {
+  width: 120px;
+}
+
+// tr > td {
+//   width: 120px;
+// }
+
+.green {
+  background-color: #C6D0AE;
+}
+
+.pink {
+  background-color: #FCB7A7;
+}
+
+.yellow {
+  background-color: #F8DDAE;
 }
