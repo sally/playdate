@@ -10,8 +10,10 @@ $(document).ready(function() {
       $(".chat").css('border-left', '0').css('border-right', '0');
       $($('#firechat-tab-list li a')[0]).text('Diane Parker');
       $($('#firechat-tab-list li a')[1]).text("Full Circle");
-      $('.tab-pane-menu').css('border-left', 'none').css('border-right', 'none');
-      $('#firechat-tab-list').css('border-bottom', 'none')
+      $('.tab-pane-menu').css('border-left', 'none').css('border-right', 'none').css('border-bottom', 'none');
+      $('#firechat-tab-list').css('border-bottom', 'none');
+      $('.message-default').css('border','none');
+      $('.close').hide();
     } else {
       $("#firechat-wrapper").addClass("closed");
       $(".popup").css( "right", "-380px" );
