@@ -5,4 +5,6 @@ Rails.application.routes.draw do
   get '/circle_dashboard', to: 'main#circle_dashboard'
 
   get '/chat', to: 'main#chat'
+
+  root to: 'main#index'
 end
